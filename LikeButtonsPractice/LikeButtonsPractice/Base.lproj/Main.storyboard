@@ -39,25 +39,25 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="31" translatesAutoresizingMaskIntoConstraints="NO" id="Shb-9N-ebR">
-                                <rect key="frame" x="114" y="277" width="147.5" height="113.5"/>
+                                <rect key="frame" x="112.5" y="227.5" width="150" height="212.5"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="YSV-Qp-C0v">
-                                        <rect key="frame" x="0.0" y="0.0" width="41.5" height="113.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="YSV-Qp-C0v">
+                                        <rect key="frame" x="0.0" y="0.0" width="41.5" height="212.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L8u-gV-aUS">
-                                                <rect key="frame" x="0.0" y="0.0" width="41.5" height="24.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="41.5" height="54.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nsa-Z2-m3H">
-                                                <rect key="frame" x="0.0" y="48.5" width="41.5" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="78.5" width="41.5" height="55"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BE6-Q2-wfn">
-                                                <rect key="frame" x="0.0" y="93" width="41.5" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="157.5" width="41.5" height="55"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -65,22 +65,31 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="cfF-5a-4oV">
-                                        <rect key="frame" x="72.5" y="0.0" width="75" height="113.5"/>
+                                        <rect key="frame" x="72.5" y="0.0" width="77.5" height="212.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sUU-XY-BJu">
-                                                <rect key="frame" x="0.0" y="0.0" width="75" height="34.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="77.5" height="67.5"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="likeUnpressed"/>
+                                                <connections>
+                                                    <action selector="likeButton1Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ucC-r8-Eph"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8CP-HV-oCa">
-                                                <rect key="frame" x="0.0" y="39.5" width="75" height="34.5"/>
+                                                <rect key="frame" x="0.0" y="72.5" width="77.5" height="67.5"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="likeUnpressed"/>
+                                                <connections>
+                                                    <action selector="likeButton2Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JVy-x3-C1A"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R0p-eG-eQb">
-                                                <rect key="frame" x="0.0" y="79" width="75" height="34.5"/>
+                                                <rect key="frame" x="0.0" y="145" width="77.5" height="67.5"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="likeUnpressed"/>
+                                                <connections>
+                                                    <action selector="likeButton3Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wwt-z4-eci"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -98,6 +107,14 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="CVs-Qn-Ykr"/>
+                    <connections>
+                        <outlet property="labelView1" destination="L8u-gV-aUS" id="Ce8-qh-q1K"/>
+                        <outlet property="labelView2" destination="nsa-Z2-m3H" id="Qhp-7m-2fJ"/>
+                        <outlet property="labelView3" destination="BE6-Q2-wfn" id="Jmz-JN-SiC"/>
+                        <outlet property="likeButtonView1" destination="sUU-XY-BJu" id="heU-ut-qtj"/>
+                        <outlet property="likeButtonView2" destination="8CP-HV-oCa" id="oYb-oT-ppi"/>
+                        <outlet property="likeButtonView3" destination="R0p-eG-eQb" id="yvm-85-OeC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -263,6 +280,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="likeUnpressed" width="53.333332061767578" height="53.333332061767578"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
