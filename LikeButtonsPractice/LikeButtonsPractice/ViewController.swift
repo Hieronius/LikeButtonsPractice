@@ -44,13 +44,27 @@ class ViewController: UIViewController {
     
     
     @IBAction func likeButton1Pressed(_ sender: UIButton) {
-        
+//        if likeButtonView1.state == .normal {
+//            likeButtonView1.isSelected.toggle()
+//        } else {
+//            likeButtonView1.isSelected.toggle()
+//        }
+//        print(likeButtonView1.state)
+//        print(likeButtonView1.isSelected)
+        likeButtonView1.isSelected.toggle()
     }
     
     @IBAction func likeButton2Pressed(_ sender: UIButton) {
+//        if likeButtonView2.state == .normal {
+//            likeButtonView2.isSelected.toggle()
+//        } else {
+//            likeButtonView2.isSelected.toggle()
+//        }
+        likeButtonView2.isSelected.toggle()
     }
     
     @IBAction func likeButton3Pressed(_ sender: UIButton) {
+        likeButtonView3.isSelected.toggle()
     }
     
 }
