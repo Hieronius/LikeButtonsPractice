@@ -22,28 +22,35 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        setupLikeButton1()
+        setupLikeButton2()
+        setupLikeButton3()
     }
     
     func setupLikeButton1() {
-        
+        likeButtonView1.setImage(UIImage(named: "likeUnpressed"), for: .normal)
+        likeButtonView1.setImage(UIImage(named: "likePressed"), for: .selected)
     }
     
     func setupLikeButton2() {
-        
+        likeButtonView2.setImage(UIImage(named: "likeUnpressed"), for: .normal)
+        likeButtonView2.setImage(UIImage(named: "likePressed"), for: .selected)
     }
     
     func setupLikeButton3() {
+        likeButtonView3.setImage(UIImage(named: "likeUnpressed"), for: .normal)
+        likeButtonView3.setImage(UIImage(named: "likePressed"), for: .selected)
+    }
+    
+    
+    @IBAction func likeButton1Pressed(_ sender: UIButton) {
         
     }
     
-    
-    @IBAction func likeButton1Pressed(_ sender: Any) {
+    @IBAction func likeButton2Pressed(_ sender: UIButton) {
     }
     
-    @IBAction func likeButton2Pressed(_ sender: Any) {
-    }
-    
-    @IBAction func likeButton3Pressed(_ sender: Any) {
+    @IBAction func likeButton3Pressed(_ sender: UIButton) {
     }
     
 }
