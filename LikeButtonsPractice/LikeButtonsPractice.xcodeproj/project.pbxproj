@@ -15,6 +15,7 @@
 		DD81805B29D7614B00C4DF1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD81805929D7614B00C4DF1F /* LaunchScreen.storyboard */; };
 		DD81806429D761CC00C4DF1F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD81806329D761CC00C4DF1F /* SecondViewController.swift */; };
 		DD81806629D761D700C4DF1F /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD81806529D761D700C4DF1F /* ThirdViewController.swift */; };
+		DDB6E74129DB7EE500824511 /* practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB6E74029DB7EE500824511 /* practice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		DD81805C29D7614B00C4DF1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD81806329D761CC00C4DF1F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		DD81806529D761D700C4DF1F /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		DDB6E74029DB7EE500824511 /* practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			children = (
 				DD81806229D7618C00C4DF1F /* Application */,
 				DD81805229D7614800C4DF1F /* ViewController.swift */,
+				DDB6E74029DB7EE500824511 /* practice.swift */,
 				DD81805429D7614800C4DF1F /* Main.storyboard */,
 				DD81806329D761CC00C4DF1F /* SecondViewController.swift */,
 				DD81806529D761D700C4DF1F /* ThirdViewController.swift */,
@@ -154,6 +157,7 @@
 			files = (
 				DD81806429D761CC00C4DF1F /* SecondViewController.swift in Sources */,
 				DD81805329D7614800C4DF1F /* ViewController.swift in Sources */,
+				DDB6E74129DB7EE500824511 /* practice.swift in Sources */,
 				DD81806629D761D700C4DF1F /* ThirdViewController.swift in Sources */,
 				DD81804F29D7614800C4DF1F /* AppDelegate.swift in Sources */,
 				DD81805129D7614800C4DF1F /* SceneDelegate.swift in Sources */,

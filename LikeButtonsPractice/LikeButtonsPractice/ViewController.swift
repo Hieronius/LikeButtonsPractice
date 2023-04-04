@@ -19,12 +19,27 @@ class ViewController: UIViewController {
     @IBOutlet weak var likeButtonView2: UIButton!
     @IBOutlet weak var likeButtonView3: UIButton!
     
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         setupLikeButton1()
         setupLikeButton2()
         setupLikeButton3()
+        
+    }
+    
+    func setStatusBar(backgroundColor: UIColor) {
+        let statusBarFrame: CGRect
+        if #available(iOS 13.0, *) {
+            statusBarFrame = view.window?.windowScene?.statusBarManager?.statusBarFrame ?? CGRect.zero
+        } else {
+            statusBarFrame = UIApplication.shared.statusBarFrame
+        }
+        let statusBarView = UIView(frame: statusBarFrame)
+        statusBarView.backgroundColor = backgroundColor
+        view.addSubview(statusBarView)
     }
     
     func setupLikeButton1() {
@@ -56,4 +71,3 @@ class ViewController: UIViewController {
     }
     
 }
-
